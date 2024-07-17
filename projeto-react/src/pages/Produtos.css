@@ -1,0 +1,12 @@
+.promotions-images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+#promotions .image-item{
+    display: flex;
+    width: 405px;
+    height: 251px;
+}   

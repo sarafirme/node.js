@@ -1,11 +1,11 @@
-export default function Layout(){
+export default function Layout(props){
     return(
         <>
             <div>
                 HEADER
             </div>
             <main>
-                CHILDRENS
+                {props.ch}
             </main>
             <footer>
                 FOOTER
